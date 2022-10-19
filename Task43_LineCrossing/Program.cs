@@ -48,5 +48,5 @@ if (isParallel)
 }
 else
 {
-    Console.WriteLine($"Точка пересечения имеет следующие координаты: ({string.Join(", ", GetCrossPoint(aK, aB, bK, bB))}).");
+    Console.WriteLine($"Точка пересечения имеет следующие координаты: ({string.Join("; ", GetCrossPoint(aK, aB, bK, bB))}).");
 }
